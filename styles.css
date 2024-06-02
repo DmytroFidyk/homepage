@@ -137,6 +137,49 @@ section {
     font-size: 18px;
 }
 
+.projects_container {
+    width: 50%;
+    margin-top: 12px;
+}
+
+.project {
+    margin-top: 12px;
+}
+
+.projects_section {
+    padding: 24px 0px;
+    margin-top: 32px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,231,0,1) 0%, rgba(147,229,0,1) 50%, rgba(29,212,0,1) 100%);
+}
+
+.projects_text {
+    font-size: 20px;
+    width: 50%;
+}
+
+.project_links {
+    display: flex;
+}
+
+.project_links a {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.project_links a svg{
+    margin-right: 4px;
+}
+
+.status {
+    font-size: 18px;
+}
+
+.project {
+    font-size: 20px;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
